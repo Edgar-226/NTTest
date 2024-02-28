@@ -16,6 +16,7 @@ namespace NTTest.Models
         [Key]
         public string id { get; set; }
 
+        [Column(TypeName = "decimal(30,2)")]
         public decimal amount { get; set; }
 
         public string status { get; set; }
